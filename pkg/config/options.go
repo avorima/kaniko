@@ -30,6 +30,8 @@ type KanikoOptions struct {
 	BuildArgs      multiArg
 	Insecure       bool
 	SkipTLSVerify  bool
+	InsecurePull   bool
+	SkipTLSVerifyPull bool
 	SingleSnapshot bool
 	Reproducible   bool
 	NoPush         bool
